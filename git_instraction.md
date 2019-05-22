@@ -15,5 +15,6 @@
 
 * ssh-keygen -t rsa -C "youremail&example.com"：创建SSH Key
 * git push -u origin master：把本地库的所有内容推送到远程库上，并关联起来，此后每次本地提交后，只要有必要既可以使用命令git push origin master推送最近修改
-* 
+
+* git clone git@github.com:zhaidefeng/gitskills.git：克隆一个本地库
 
