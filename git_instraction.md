@@ -18,3 +18,10 @@
 
 * git clone git@github.com:zhaidefeng/gitskills.git：克隆一个本地库
 
+#### 分支管理
+
+* git checkout -b dev：创建dev分支，-b参数表示创建并切换
+  * 相当于这两条命令：git branch dev、git checkout dev
+* git branch：查看当前分支
+* git merge dev：切换回master分支（git checkout master）后，把dev分支的工作成果合并到master分支上
+* git branch -d dev：删除dev分支
